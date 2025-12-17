@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spa de Uñas | Belleza & Cuidado</title>
+  <meta name="description" content="Spa de uñas profesional: manicure, pedicure, uñas acrílicas y diseños personalizados." />
+
+  <style>
+    :root {
+      --primary: #c27ba0;
+      --secondary: #f7e6ef;
+      --dark: #333;
+      --light: #fff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      color: var(--dark);
+      background-color: var(--light);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), #e6b8ce);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+    }
+
+    nav {
+      background-color: var(--secondary);
+      padding: 10px 0;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--dark);
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: var(--primary);
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: var(--secondary);
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: var(--primary);
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .contact {
+      background-color: var(--secondary);
+      border-radius: 8px;
+      padding: 30px;
+    }
+
+    .contact p {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Spa de Uñas</h1>
+    <p>Belleza, cuidado y estilo para tus manos</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <br />
+    <div class="services">
+      <div class="card">
+        <h3>Manicure</h3>
+        <p>Cuidado profesional para tus uñas con acabados impecables.</p>
+      </div>
+      <div class="card">
+        <h3>Pedicure</h3>
+        <p>Relajación y estética para pies saludables y hermosos.</p>
+      </div>
+      <div class="card">
+        <h3>Uñas Acrílicas</h3>
+        <p>Diseños modernos, resistentes y personalizados.</p>
+      </div>
+      <div class="card">
+        <h3>Nail Art</h3>
+        <p>Diseños únicos adaptados a tu estilo.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <h2>Galería</h2>
+    <br />
+    <div class="gallery">
+      <img src="https://via.placeholder.com/400x300?text=Uñas+1" alt="Diseño de uñas 1" />
+      <img src="https://via.placeholder.com/400x300?text=Uñas+2" alt="Diseño de uñas 2" />
+      <img src="https://via.placeholder.com/400x300?text=Uñas+3" alt="Diseño de uñas 3" />
+      <img src="https://via.placeholder.com/400x300?text=Uñas+4" alt="Diseño de uñas 4" />
+    </div>
+  </section>
+
+  <section id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <br />
+    <p>
+      Somos un spa de uñas dedicado a resaltar tu belleza con técnicas
+      profesionales, productos de alta calidad y un ambiente relajante.
+    </p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <br />
+    <div class="contact">
+      <p><strong>Teléfono / WhatsApp:</strong> +57 300 000 0000</p>
+      <p><strong>Dirección:</strong> Calle 123 #45-67</p>
+      <p><strong>Horario:</strong> Lunes a Sábado – 9:00 a.m. a 7:00 p.m.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Spa de Uñas. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
